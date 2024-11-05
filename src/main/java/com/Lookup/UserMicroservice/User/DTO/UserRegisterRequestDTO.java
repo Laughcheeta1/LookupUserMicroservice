@@ -7,9 +7,6 @@ import java.util.Date;
 
 @Getter
 public class UserRegisterRequestDTO {
-    @JsonProperty("_id")
-    private String id;
-
     @JsonProperty("name")
     private String name;
 
@@ -21,6 +18,9 @@ public class UserRegisterRequestDTO {
 
     @JsonProperty("date_of_birth")
     private Date dateOfBirth;
+
+    @JsonProperty("password")
+    private String password;
 
     @JsonProperty("location")
     private String location;

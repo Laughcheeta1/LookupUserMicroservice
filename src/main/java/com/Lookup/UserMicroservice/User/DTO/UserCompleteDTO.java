@@ -11,7 +11,7 @@ import java.util.List;
 
 @Builder
 public class UserCompleteDTO {
-    @JsonProperty("_id")
+    @JsonProperty("id")
     private String id;
 
     @JsonProperty("name")

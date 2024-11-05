@@ -39,6 +39,7 @@ public class UserServiceImplementation implements UserService {
     public UserBasicDTO createUser(UserRegisterRequestDTO userRegister) {
         User user = User.builder()
                 .name(userRegister.getName())
+                .password(userRegister.getPassword())
                 .email(userRegister.getEmail())
                 .number(userRegister.getNumber())
                 .dateOfBirth(userRegister.getDateOfBirth())

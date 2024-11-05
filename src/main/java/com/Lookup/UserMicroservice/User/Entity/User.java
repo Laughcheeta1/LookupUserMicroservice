@@ -17,6 +17,8 @@ public class User {
     private ObjectId id;
     @Field("name")
     private String name;
+    @Field("password")
+    private String password;
     @Field("email")
     private String email;
     @Field("number")
