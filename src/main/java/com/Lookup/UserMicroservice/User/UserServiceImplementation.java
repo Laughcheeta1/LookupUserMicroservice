@@ -56,6 +56,9 @@ public class UserServiceImplementation implements UserService {
         if (newUser.getName() != null)
             user.setName(newUser.getName());
 
+        if (newUser.getPassword() != null)
+            user.setPassword(newUser.getPassword());
+
         if (newUser.getEmail() != null)
             user.setEmail(newUser.getEmail());
 
